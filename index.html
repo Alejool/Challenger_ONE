@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/build/css/app.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+  <title>Encriptador</title>
+</head>
+<body>
+
+  <main class="contenedor contenido">
+    <section class="principal">
+      <h1 class="principal__logo"> <i class="bi bi-key-fill"></i> Encriptador </h1>
+
+      <div class="ingresar"> 
+          <textarea class="ingresar__textarea" placeholder="Escribe algo"></textarea>
+
+          <div class="ingresar__actions">
+            <p class="ingresar__warning"><i class="bi bi-exclamation-diamond-fill"></i> Solo letras minúsculas y sin acentos  </p>
+            
+            <div class="ingresar__btns">
+            <button id="encriptar" class="ingresar__btn"> Encriptar <i class="bi bi-lock-fill"></i></button>
+            <button id="desencriptar" class="ingresar__btn--blanco"> Desencriptar <i class="bi bi-unlock-fill"></i></button>
+            <div>
+          </div>
+      </div>
+   
+    </section>
+    
+    <section class="mostrar">
+     
+        <div class="mostrar__todo">
+          <div class="mostrar__text">
+            <p class="mostrar__texto"></p>
+            <button type='button' id="copy" class="ingresar__btn--blanco">Copiar</button>
+          </div>
+
+          <div class="mostrar__mensaje">
+            <img src="build/img/busqueda.svg" alt="imagen de busqueda" class="mostrar__img">
+            <div class="mostrar__info">
+            <h3 class="mostrar__warning">Ningún mensaje fue encontrado</h3>
+            <p class="mostrar__recomendacion">Escribe el texto que deseas encriptar o desencriptar</p>
+          </div>
+      
+       </div>
+
+      </div>
+      
+
+    </section>
+  </main>
+
+  <footer class="footer ">
+    <p class="footer__creditos">&copy  Todos los derechos reservados - Alejandro Olarte</p>
+  </footer>
+
+  <script src="build/js/bundle.min.js"></script>
+  
+</html>
