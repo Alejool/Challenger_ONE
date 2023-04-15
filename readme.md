@@ -18,19 +18,22 @@ Este proyecto fue desarrollado utilizando las siguientes tecnologías:
 - HTML
 - CSS
 - JavaScript
+- sass
+- NPM
+
+## Herramientas
+
+- Gulp
+
 
 ## Contribuciones
 
-Si deseas contribuir a este proyecto, por favor sigue estos pasos:
+Si deseas contribuir a este proyecto, contactame.
 
-1. Haz un fork del repositorio.
-2. Clona el fork en tu computadora.
-3. Haz los cambios que deseas hacer.
-4. Envía un pull request.
 
 ## Créditos
 
-Este proyecto fue desarrollado por [Tu nombre] y [Nombre del colaborador], bajo la licencia MIT.
+Este proyecto fue desarrollado por Alejandro Olarte, bajo la licencia MIT.
 
 ## Licencia
 
