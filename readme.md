@@ -28,7 +28,7 @@ Este proyecto fue desarrollado utilizando las siguientes tecnologías:
 
 ## Contribuciones
 
-Si deseas contribuir a este proyecto, contactame.
+Si deseas contribuir a este proyecto, contáctame.
 
 
 ## Créditos
